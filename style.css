@@ -28,8 +28,6 @@ body {
     height: 100%;
     background: url('img/bg-cover.png') center / cover no-repeat;
     z-index: -1;
-    filter: grayscale();
-    -webkit-filter: grayscale();
     opacity: 80%;
 }
 
@@ -286,13 +284,16 @@ body {
 .rsvp select {
     font-size: 0.9rem;
     font-weight: 300;
+    background-color: transparent;
+    border: 1px solid var(--blue);
+    opacity: 50%;
 }
 
 .rsvp button {
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--blue);
-    background-color: white;
+    background-color: transparent;
     border: 1px solid var(--blue);
 }
 
